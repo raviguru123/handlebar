@@ -3,25 +3,13 @@
   <meta charset="utf-8">
   <script src="jsLib/jquery.min.js"></script>
   <script src="jsLib/handlebars-v4.0.5.js"></script>
-  <script id="handlebar-demo" type="text/x-handlebars-template">
-   <p>hello my name is:{{name}} and surname is {{surname}}</p>
- </script>
-
- <script>
-   document.addEventListener("DOMContentLoaded", function() {
-    var template=$("#handlebar-demo").html();
-    debugger;
-    var templateScript=Handlebars.compile(template);
-    var nameObj={name:"ravi",surname:"Guru"};
-    var html=templateScript(nameObj);
-    console.log(html);
-    $(".txtinput").html(html);
-  });
-  </script>
+  <script src="handlebarJs/header.js"></script>
+  <script src="handlebarJs/body.js"></script>
+  <script src="handlebarJs/footer.js"></script>
 </head>
 <body>
-  <h1>Hello this testing</h1>
-  <div class="txtinput"></div>
-  <div>This one is div</div>
+ <div class="header"></div>
+ <div class="body"></div>
+ <div class="footer"></div>
 </body>
 </html>
