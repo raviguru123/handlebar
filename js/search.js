@@ -1,4 +1,6 @@
+document.addEventListener("DOMContentLoaded",function(){
+
 $("body").on("click",".btnurl",function(){
-	alert("hello");
-	window.location.url="index.html";
-})
+		window.location.href="index.html";
+	});
+});

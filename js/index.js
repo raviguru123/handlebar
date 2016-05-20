@@ -1,3 +1,10 @@
-$("input[type='button']").click(function(){
-	window.location.url="search.html";
-})
+
+document.addEventListener("DOMContentLoaded",function(){
+
+debugger;
+console.log("hello");
+	$("body").on("click",".btnurl",function(){
+	window.location.href="search.html";
+});
+
+});
