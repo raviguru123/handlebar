@@ -7,4 +7,13 @@ $.get("../handlebarComponent/searchbody.hbs",function(data){
 function appendbody(html){
 
 	$(".body").html(html);
+	init();
+}
+
+function init(){
+
+	$("body").on("click",".btnurl",function(){
+		//alert("hello");
+		window.location.href="index.html";
+	});
 }

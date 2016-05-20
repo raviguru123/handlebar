@@ -8,5 +8,11 @@ appendBody(html);
 
 function appendBody(html){
 $(".body").html(html);
+init();
+}
 
+function init(){
+	$("body").on("click",".btnurl",function(){
+	window.location.href="search.html";
+})
 }
