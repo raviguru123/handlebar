@@ -1,4 +1,4 @@
-$.get("../handlebarComponent/searchbody.hbs",function(data){
+$.get("../handlebarComponent/searchbody.handlebars",function(data){
 
 	var obj={name:"SearchPage"};
 	var template=Handlebars.compile(data);

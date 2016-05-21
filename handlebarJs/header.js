@@ -1,5 +1,5 @@
 var html="test";
-$.get("../handlebarComponent/header.hbs",function(data){
+$.get("../handlebarComponent/header.handlebars",function(data){
 	debugger;
 	
 	var templateScript=Handlebars.compile(data);

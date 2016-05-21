@@ -1,4 +1,4 @@
-$.get("../handlebarComponent/footer.hbs",function(data){
+$.get("../handlebarComponent/footer.handlebars",function(data){
 
 	var obj={name:"footer"};
 	var template=Handlebars.compile(data);
